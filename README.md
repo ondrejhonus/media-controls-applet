@@ -26,5 +26,5 @@ mv media-controls-applet/media-controls.sh ~/.config/icewm/scripts
 chmod +x ~/.config/icewm/scripts/media-controls.sh
 
 # Add the script to the startup file
-echo "exec ~/.config/icewm/scripts/media-controls.sh" >> ~/.config/icewm/startup
+echo "exec ~/.config/icewm/scripts/media-controls.sh &" >> ~/.config/icewm/startup
 ```
